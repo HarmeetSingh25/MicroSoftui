@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    border: 1px solid gray;
+    padding: 0.6rem 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container-left {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.nav-container-left img {
+    width: 14%;
+    height: 14%;
+}
+
+.nav-container-left ul {
+    padding: 0.8rem;
+    padding-left: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-container-left ul li {
+    text-transform: capitalize;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.nav-container-left ul li:hover {
+    text-decoration: underline;
+}
+
+.nav-container-left ul li a {
+    color: rgba(52, 51, 51, 0.911);
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.nav-container-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-container-right h3 a {
+    font-weight: 400;
+    color: rgba(52, 51, 51, 0.911);
+    font-size: 0.83rem;
+    text-decoration: none;
+
+}
+.all-microsoft{
+    display: flex;
+}
+i{
+    font-size: 1.2rem;
+color: gray;
+}
+.ri-user-add-line{
+padding: 0.3rem;
+border-radius: 50px;
+color: gray;
+font-weight: 400;
+    border: 0.5px solid grey;
+}
